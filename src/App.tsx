@@ -1,18 +1,27 @@
 import React from 'react';
 import { Home, Menu, X, Youtube, Instagram, Linkedin } from 'lucide-react';
 import { useState } from 'react';
+import abhishek from './assets/abhishek.jpg';
+
+import budhayan from './assets/budhayan.jpg';
+import dhruv from './assets/dhruv.jpg';
+
+import samyak from './assets/samyak.jpg';
+import rdx from './assets/rdx.jpg';
+import lakshya from './assets/lakshya.jpg';
+
 
 // All Members Data
 const allMembers = [
   {
     name: "Dhruv Saxena",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&auto=format&fit=crop&q=60",
+    image: dhruv,
     instagram: "https://instagram.com/dhruvsaxena",
     linkedin: "https://linkedin.com/in/dhruvsaxena",
   },
   {
     name: "Abhishek Panwar",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop&q=60",
+    image: abhishek,
     instagram: "https://instagram.com/abhishekpanwar",
     linkedin: "https://linkedin.com/in/abhishekpanwar",
   },
@@ -24,13 +33,13 @@ const allMembers = [
   },
   {
     name: "Rudraksh Srimalli",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=500&auto=format&fit=crop&q=60",
+    image: rdx,
     instagram: "https://instagram.com/rudrakshsrimalli",
     linkedin: "https://linkedin.com/in/rudrakshsrimalli",
   },
   {
     name: "Lakshya Yadav",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&auto=format&fit=crop&q=60",
+    image: lakshya,
     instagram: "https://instagram.com/lakshyayadav",
     linkedin: "https://linkedin.com/in/lakshyayadav",
   },
@@ -42,7 +51,7 @@ const allMembers = [
   },
   {
     name: "Budhayan",
-    image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500&auto=format&fit=crop&q=60",
+    image: budhayan,
     instagram: "https://instagram.com/budhayan",
     linkedin: "https://linkedin.com/in/budhayan",
   },
@@ -60,7 +69,7 @@ const allMembers = [
   },
   {
     name: "Samyak Jain",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop&q=60",
+    image: samyak,
     instagram: "https://instagram.com/samyakjain",
     linkedin: "https://linkedin.com/in/samyakjain",
   },
@@ -76,12 +85,12 @@ const allMembers = [
 const youtubeChannels = [
   {
     name: "AS Asla Tech",
-    url: "https://youtube.com/@asaslatech",
+    url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     description: "Technical content and tutorials"
   },
   {
     name: "AS Asla Vlogs",
-    url: "https://youtube.com/@asaslavlogs",
+    url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     description: "Daily life and events at AS Asla"
   }
 ];
@@ -90,34 +99,35 @@ const youtubeChannels = [
 const clubs = [
   {
     name: "MDG Space",
-    description: "Mobile Development Group - Building innovative mobile applications",
+    description: "Mobile Development Group - Sab karte hain par dhang se kuch nahi",
     icon: "https://images.unsplash.com/photo-1526925539332-aa3b66e35444?w=800&auto=format&fit=crop&q=60",
   },
   {
     name: "DSG",
-    description: "Development Support Group - Supporting student developers",
+    description: "Data Science Group - Phodu club",
     icon: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&auto=format&fit=crop&q=60",
   },
   {
     name: "Cinema Club",
-    description: "Exploring the art of filmmaking and photography",
+    description: "Want theatre vibes? Come to convocation hall, we have something for you.",
     icon: "https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=800&auto=format&fit=crop&q=60",
   },
   {
     name: "CDC",
-    description: "Career Development Cell - Preparing students for their careers",
+    description: "Career Development Cell - Kuch nhi hota idhar",
     icon: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&auto=format&fit=crop&q=60",
   },
   {
     name: "STC",
-    description: "Student Technical Council - Fostering technical innovation",
+    description: "Student Technical Council - HEAVY POLIBAAZI",
     icon: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&auto=format&fit=crop&q=60",
   },
   {
     name: "RMS",
-    description: "Resource Management System - Managing hostel resources",
+    description: "IIT ROORKEE Motorsports - par ek designer aur ek ex-member",
     icon: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&auto=format&fit=crop&q=60",
   },
+
 ];
 
 function App() {
