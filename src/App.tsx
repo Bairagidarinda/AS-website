@@ -2,10 +2,10 @@ import React from 'react';
 import { Home, Menu, X, Youtube, Instagram, Linkedin } from 'lucide-react';
 import { useState } from 'react';
 import abhishek from './assets/abhishek.jpg';
-
+import ashish from './assets/ashish.jpg';
 import budhayan from './assets/budhayan.jpg';
 import dhruv from './assets/dhruv.jpg';
-
+import utkarsh from './assets/utkarsh.jpg';
 import samyak from './assets/samyak.jpg';
 import rdx from './assets/rdx.jpg';
 import lakshya from './assets/lakshya.jpg';
@@ -27,7 +27,7 @@ const allMembers = [
   },
   {
     name: "Ashish",
-    image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500&auto=format&fit=crop&q=60",
+    image: ashish,
     instagram: "https://instagram.com/ashish",
     linkedin: "https://linkedin.com/in/ashish",
   },
@@ -45,7 +45,7 @@ const allMembers = [
   },
   {
     name: "Utkarsh Kumar",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop&q=60",
+    image: utkarsh,
     instagram: "https://instagram.com/utkarshkumar",
     linkedin: "https://linkedin.com/in/utkarshkumar",
   },
@@ -56,7 +56,7 @@ const allMembers = [
     linkedin: "https://linkedin.com/in/budhayan",
   },
   {
-    name: "Vihan",
+    name: "Vihaan",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=500&auto=format&fit=crop&q=60",
     instagram: "https://instagram.com/vihan",
     linkedin: "https://linkedin.com/in/vihan",
@@ -74,7 +74,7 @@ const allMembers = [
     linkedin: "https://linkedin.com/in/samyakjain",
   },
   {
-    name: "Priyanshu",
+    name: "Sohan",
     image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500&auto=format&fit=crop&q=60",
     instagram: "https://instagram.com/priyanshu",
     linkedin: "https://linkedin.com/in/priyanshu",
